@@ -1,14 +1,14 @@
 
 # Catch AI: Fine-Grained Human-AI Collaborative Text Detection
 
-### 🚀 A Dual-Branch Semantic-Stylometric Approach
+###  A Dual-Branch Semantic-Stylometric Approach
 **Author:** Rohit Mahali (22190503048)  
 **Institution:** Central University of Jharkhand, Ranchi  
 **Guides:** Prof. Subhash Chandra Yadav & Dr. Dali Ramu Burada  
 
 ---
 
-## 📌 Overview
+##  Overview
 `Catch AI` is a research prototype designed to distinguish between human-written, AI-generated, and **hybrid (co-authored)** text. 
 
 Current Transformer-based detectors (like RoBERTa) are often fooled by **adversarial attacks** such as:
@@ -18,7 +18,7 @@ Current Transformer-based detectors (like RoBERTa) are often fooled by **adversa
 
 This project implements a **Dual-Branch Architecture** to overcome these vulnerabilities.
 
-## 🛠️ Methodology: The Dual-Branch System
+##  Methodology: The Dual-Branch System
 This system analyzes text through two concurrent lenses:
 
 1. **Semantic Branch (Deep Learning):** Utilizes a fine-tuned **RoBERTa-base** model to analyze contextual meaning and document-level patterns.
@@ -26,12 +26,12 @@ This system analyzes text through two concurrent lenses:
    - **Burstiness (Perplexity Variance):** Measures the standard deviation of sentence lengths. Humans write with high variance; AI writes with robotic uniformity.
    - **Syntactic Fingerprinting:** Extracts Part-of-Speech (POS) ratios (Nouns/Verbs/Adjectives) to detect synthetic grammatical patterns.
 
-## 📊 Key Features
+##  Key Features
 - **Sentence-Level Heatmaps:** Visualizes the transition points between human and AI text.
 - **Stylometric Radar Charts:** Maps the linguistic "fingerprint" of the input text.
 - **Burstiness Scoring:** Provides a stable, vocabulary-independent signal of authorship.
 
-## 💻 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 - Python 3.8+
@@ -55,7 +55,7 @@ This system analyzes text through two concurrent lenses:
    streamlit run app.py
    ```
 
-## 📖 Research Foundations
+##  Research Foundations
 This project is an extension of and inspired by the following research:
 - **Lekkala et al. (2025):** Fine-Grained Detection via Sentence-Level Segmentation.
 - **Aityan et al. (2025):** Lightweight Stylometric Feature Detection.
