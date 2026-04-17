@@ -1,4 +1,4 @@
-```markdown
+
 # Catch AI: Fine-Grained Human-AI Collaborative Text Detection
 
 ### 🚀 A Dual-Branch Semantic-Stylometric Approach
