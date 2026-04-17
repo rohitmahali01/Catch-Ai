@@ -65,20 +65,3 @@ This project is an extension of and inspired by the following research:
 ---
 © 2026 Rohit Mahali | Bachelor of Engineering in Computer Science and Engineering
 ```
-
----
-
-### **3. The `requirements.txt` Content**
-Create a file named `requirements.txt` and paste these libraries:
-
-```text
-streamlit
-torch
-transformers
-numpy
-plotly
-spacy
-nltk
-```
-
----
