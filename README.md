@@ -18,6 +18,24 @@ Current Transformer-based detectors (like RoBERTa) are often fooled by **adversa
 
 This project implements a **Dual-Branch Architecture** to overcome these vulnerabilities.
 
+<p align="center">
+  <img src="<img width="1015" height="465" alt="image" src="https://github.com/user-attachments/assets/83da6479-a0ed-4bfe-8dde-0dcb65066090" />
+" width="800" title="Catch AI Dashboard">
+</p>
+
+<p align="center">
+  <img src="<img width="1015" height="465" alt="image" src="<img width="1015" height="322" alt="image" src="https://github.com/user-attachments/assets/b3d44c8c-5c9c-43bd-9e32-6e704e1536b4" />
+" />
+" width="800" title="Catch AI Dashboard">
+</p>
+
+<p align="center">
+  <img src="<img width="1015" height="465" alt="image" src="<img width="1015" height="322" alt="image" src="<img width="1015" height="288" alt="image" src="https://github.com/user-attachments/assets/9dba3d5c-897a-42ee-8fcf-ff4ff37fee0b" />
+" />
+" />
+" width="800" title="Catch AI Dashboard">
+</p>
+
 ##  Methodology: The Dual-Branch System
 This system analyzes text through two concurrent lenses:
 
