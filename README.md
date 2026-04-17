@@ -1,19 +1,3 @@
-### **1. Repository Structure**
-```text
-catch-ai/
-├── app.py              # The main Streamlit application code
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation (The most important file)
-├── .gitignore          # Files to ignore (like __pycache__)
-├── assets/             # Folder for screenshots of your Heatmaps/Radar charts
-└── research/           # Your Dissertation Abstract and PDF report
-```
-
----
-
-### **2. The `README.md` Content**
-Copy and paste this into your `README.md` file. It explains your "Dual-Branch" methodology to anyone who visits the page.
-
 ```markdown
 # Catch AI: Fine-Grained Human-AI Collaborative Text Detection
 
@@ -98,34 +82,3 @@ nltk
 ```
 
 ---
-
-### **4. The `.gitignore` Content**
-This keeps your repo clean from temporary files:
-
-```text
-__pycache__/
-.streamlit/
-*.pyc
-.env
-```
-
----
-
-### **How to "Commit" this to GitHub:**
-
-1. **Create the Repo:** Go to GitHub and create a new repository named `catch-ai`.
-2. **Initialize locally:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Dual-branch hybrid AI detection prototype"
-   ```
-3. **Push to GitHub:**
-   ```bash
-   git remote add origin https://github.com/your-username/catch-ai.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-### **💡 Final Tip for your Presentation:**
-During your demo, open your GitHub repo and show the professors your **README**. It proves that your work is professionally documented and that you are following **Open Science** practices by sharing your code and research foundations.
