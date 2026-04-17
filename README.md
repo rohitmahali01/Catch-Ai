@@ -4,7 +4,7 @@
 ###  A Dual-Branch Semantic-Stylometric Approach
 **Author:** Rohit Mahali (22190503048)  
 **Institution:** Central University of Jharkhand, Ranchi  
-**Guides:** Prof. Subhash Chandra Yadav & Dr. Dali Ramu Burada  
+**Guides:** Prof. Subhash Chandra Yadav
 
 ---
 
